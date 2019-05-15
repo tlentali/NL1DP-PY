@@ -3,7 +3,7 @@
 Data-preprocessing tool for NLP
 
 <p align="center">
-  <a href="#"><img src="./misc/alysfabienne_verdier.png" /></a>
+  <a href="#"><img src="./misc/fabienne_verdier.png" /></a>
 </p>
 
 Paint by [Fabienne Verdier](https://fabienneverdier.com/)
@@ -23,7 +23,7 @@ in process
 ## Feature
 
 | Feature                       | type   | description                                                   |
-| :---------------------------: | :----: | :-----------------------------------------------------------: |
+| :---------------------------  | :----  | :-----------------------------------------------------------  |
 | clean_text                    | string | remove symbols other than letter, number and punctuation      |
 | clean_numbers                 | string | replace numbers by '#'                                        |
 | replace_typical_misspell      | string | correct usual misspelling from a dict in ```config.py```      |
