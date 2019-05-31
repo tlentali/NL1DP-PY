@@ -1,0 +1,8 @@
+# env files
+*env/*
+
+# Auto-save files
+*#
+
+# Auto-backup files
+*~

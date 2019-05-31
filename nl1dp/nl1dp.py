@@ -1,5 +1,6 @@
 import pandas
 import re
+import unidecode
 
 from string import punctuation
 from collections import Counter
@@ -99,9 +100,14 @@ def full_cleaning(text):
                                 replace_typical_misspell(
                                     to_lower(text)))))))))
 
+
 def analysis(text):
     res = {}
     res['char_lower'] = count_lower(text)
     res['char_upper'] = count_upper(text)
     res['punct'] = count_punctuation(text)
     return res
+
+
+def accent_removal(text):
+    return unidecode.unidecode(text)
