@@ -6,7 +6,7 @@ Data-preprocessing tool for NLP
   <a href="#"><img src="./misc/fabienne_verdier.png" /></a>
 </p>
 
-Paint by [Fabienne Verdier](https://fabienneverdier.com/)
+Painting by [Fabienne Verdier](https://fabienneverdier.com/)
 
 ## Installation
 
